@@ -1,0 +1,49 @@
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *:before,
+html.theme-transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
+
+// global colors for default (light) theme
+html {
+  --primaryBg: #f4f4f4;
+  --primaryText: #000;
+  --primaryActiveMenu: #fff;
+  --primaryBlockBg: #fff;
+  --buttonBlockBg: #fff;
+  --themeButtonBg: #30409A;
+  --themeButtonText: #fff;
+  --addItemsLink: #0A95DB;
+  --sidebarHr: #253281;
+  --inputBg: #fff;
+  --subtitleText: #555555;
+  --sidebarBg: linear-gradient(180deg, rgba(48,64,154,1) 70%, rgba(30,37,77,1) 100%);
+  --activeLink: #fff;
+  --inactiveLink: #828282;
+  --componentBg: #fff;
+  --openMenuColor: url(./images/aside-open_b.png);
+  --closeMenuColor: url(./images/aside-close_w.png);
+}
+
+// global colors for dark theme
+html[data-theme="dark"] {
+  --primaryBg: #000;
+  --primaryText: #fff;
+  --primaryActiveMenu: #fff;
+  --primaryBlockBg: #232323;
+  --buttonBlockBg: #232323;
+  --themeButtonBg: #fff;
+  --themeButtonText: #000;
+  --addItemsLink: #AAAAAA;
+  --sidebarHr: #959595;
+  --inputBg: #535353;
+  --subtitleText: #f1f1f1;
+  --sidebarBg: linear-gradient(180deg, rgba(35,35,35,1) 70%, rgba(17,17,17,1) 100%);
+  --activeLink: #fff;
+  --inactiveLink: #828282;
+  --componentBg: #232323;
+  --openMenuColor: url(./images/aside-open_w.png);
+  --closeMenuColor: url(./images/aside-close_w.png);
+}

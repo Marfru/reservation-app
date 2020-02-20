@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+body {
+    background-color: var(--primaryBg);
+}
+h1 {
+    color: var(--primaryText);
+    text-align: left;
+    font-weight: 700;
+    font-size: 2.1rem;
+    line-height: 1.7;
+}
+h2 {
+    color: var(--subtitleText);
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+h3 {
+    color: var(--primaryText);
+    text-align: left;
+    font-weight: 500;
+    line-height: 2;
+}
+h5 {
+    color: var(--primaryText);
+}
+p {
+    color: var(--primaryText);
+    text-align: left;
+    display: block;
+    font-weight: 400;
+    font-size: .9rem;
+}
+pre {
+    color: var(--primaryText);
+}
+a {
+    color: var(--primaryActiveMenu);
+    text-decoration: none;
+    font-weight: 300;
+}
+hr {
+    margin: 15px 0;
+    width: 100%;
+    height: 1px;
+    border-color: transparent;
+    border-style: solid;
+    background-color: #f4f4f4;
+}
+.mx-grid__aside--hr {
+    width: 16%;
+    margin-left: 40px;
+    background-color: var(--sidebarHr);
+}
+.svg {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+.svg__arrow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 5%;
+    top: 40%;
+}
+.svg__arrow.mx-user__link {
+    position: initial;
+    top: initial;
+    right: initial;
+}
+button {
+    cursor: pointer;
+    border: 0;
+    background: none;
+    outline: none;
+}
+ul {
+    list-style-type: none;
+}
+.avatar {
+    margin-top: 50px;
+    padding: 20px 20px 20px 40px;
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    p {
+        margin-top: 10px;
+        font-weight: 300;
+        color: #fff;
+    }
+}
+@media only screen and (min-width:46.875em) {
+    .avatar {
+        margin-top: 30px;
+    }
+}
+.mx-grid__footer--docs {
+    a {
+        color: var(--primaryText);
+        text-decoration: underline;
+        font-size: .7rem;
+    }
+}
